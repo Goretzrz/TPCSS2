@@ -1,0 +1,10 @@
+#tete {
+    background-color: blue; width: 100%; height: 50px;text-align: center;
+}
+
+#corps {
+    background-color: yellow; width: 100%; height: 750px;text-align: center;padding: 5px;
+}
+#pied {
+    background-color: aquamarine; width: 100%;height: 50px;text-align: center;
+}
