@@ -6,6 +6,9 @@ body {
 
 
 .bandeau {
+    position: fixed;
+    top: 0%;
+
     background-color: blue;
     width: 100%;
     height: 100px; 
@@ -14,9 +17,12 @@ body {
 }
 
 .menu {
+    position: fixed;
+    top: 110px;
+    left: 0px;
 background-color: pink;
 width: 10%;
- height: 350px; 
+ height: 600px; 
  text-align: center; 
  float: left; 
  padding: 5px;
@@ -29,20 +35,27 @@ background-color: yellow ;
    padding: 5px;
 }
 .pied {
+    position: fixed;
+    bottom: 0px;
     background-color: green;
-     text-align: center;
-      height: 200px; 
-      padding: 5px;
-      width: 100%;
+    text-align: center;
+    height: 200px; 
+    padding: 5px;
+    width: 100%;
 }
 
 .case {
+    position: fixed;
+    top: 110px;
+    right: 0%;
+
+    
     background-color: red;
-     width:200px ;
-height: 300px;
-  text-align: center; 
-  padding: 5px;
- float: right;
+    width:200px ;
+    height: 300px;
+    text-align: center; 
+    padding: 5px;
+    float: right;
 
 
 
@@ -51,15 +64,17 @@ height: 300px;
 
 .menubas {
     position: fixed;
+    top 500px;
+    left 0px;
     background-color: red;
-    top: 450px;
+    top: 350px;
     left: 0px;
     
     width:10% ;
-height: 350px;
+height: 400px;
  text-align: center; 
  padding: 5px;
- float: left;
+ 
 
 
 
